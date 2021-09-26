@@ -69,3 +69,12 @@ To see the content appropriately in the classic interface install the following:
 
  - [*Jupyter Notebook* dark theme](https://userstyles.org/styles/153443/jupyter-notebook-dark);
  - [*GitHub* dark theme](https://userstyles.org/styles/37035/github-dark) and comment out the `invert #fff to #181818` code block.
+
+## Noteables
+Handle jupyter notebook with pipenv.
+```bash
+$ pipenv shell
+$ pipenv install
+$ pipenv install jupyter
+$ pipenv run jupyter notebook
+```
